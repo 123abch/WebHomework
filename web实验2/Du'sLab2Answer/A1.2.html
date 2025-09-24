@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 重置 body 的默认边距 */
+        body {
+            margin: 0;
+            font-family: sans-serif;
+        }
+
+        /* 导航栏容器 <nav> */
+        .navbar {
+            background-color: #333; /* 深灰色背景 */
+            overflow: hidden; /* 确保内容不溢出 */
+        }
+
+        /* 导航链接列表 <ul> */
+        .navbar ul {
+            list-style-type: none; /* 移除列表项前面的圆点 */
+            margin: 0;
+            padding: 0;
+            display: flex; /* 使用 Flexbox 布局，实现水平排列 */
+        }
+        /* 导航链接 <a> */
+        .navbar li a {
+            display: block; /* 将链接变为块级元素，使其可以填充整个 <li> */
+            color: white; /* 文字颜色为白色 */
+            text-align: center; /* 文字居中 */
+            padding: 14px 20px; /* 设置内边距 (上下14px, 左右20px) */
+            text-decoration: none; /* 移除下划线 */
+            transition: background-color 0.3s; /* 添加背景色变化的过渡效果 */
+        }
+
+        /* 鼠标悬停在链接上时的效果 */
+        .navbar li a:hover {
+            background-color: #555; /* 悬停时背景变深 */
+        }
+
+        /* 当前活动页面的链接样式 */
+        .navbar li a.active {
+            background-color: #007BFF; /* 蓝色背景表示当前页 */
+        }
+        p {
+            text-indent: 2em; /* 设置首行缩进两个字符 */
+            text-align: left; /* 将文本左对齐以获得更好的阅读效果 */
+            padding: 0 20px; /* 增加左右内边距，避免文字贴边 */
+            line-height: 1.6; /* 增加行高，提升可读性 */
+        }
+        h2 {
+            text-align: left;
+            padding: 0 20px; /* 也为标题增加内边距 */
+        }
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a class="active" href="http://dzzw.jsjyt.edu.cn/col/col7421/index.html">新闻资讯</a></li>
+            <li><a href="http://dzzw.jsjyt.edu.cn/col/col7662/index.html">领导讲话</a></li>
+            <li><a href="http://dzzw.jsjyt.edu.cn/col/col7426/index.html">成果展示</a></li>
+            <li><a href="http://www.jsjyt.gov.cn">行政公文</a></li>
+            <li><a href="http://dzzw.jsjyt.edu.cn/col/col7431/index.html">江苏教育网</a></li>
+            <li><a href="http://www.jse.gov.cn">江苏教育信息网</a></li>
+        </ul>
+    </nav>
+    <h2>
+        2014年全省教育电子政务工作座谈会在宁召开
+    </h2>
+    <p>
+        为进一步统一思想、提高认识、振奋精神、明确方向，3月14日，全省教育电子政务工作座谈会在宁召开，来自13个省辖市、3个省管县（市、区）教育门户网站维护保障单位负责人参加了会议，各地就教育电子政务工作开展的情况作了交流，对全省教育门户网站绩效考核指标体系、江苏教育网《视频新闻》栏目筹建和通联站建设管理方案进行深入的研讨。
+    </p>
+    <h2>
+        国务院：运用大数据提高政府服务水平
+    </h2>
+    <p>近日，国务院办公厅印发《关于运用大数据加强对市场主体服务和监管的若干意见》(以下简称《意见》)。</p>
+    <p>《意见》要求，以社会信用体系建设和政府信息公开、数据开放为抓手，充分运用大数据、云计算等现代信息技术，提高政府服务水平，加强事中事后监管，维护市场正常秩序，促进市场公平竞争，释放市场主体活力，进一步优化发展环境。</p>
+    <footer>
+        江苏省电子政务中心&nbsp;&nbsp;版权所有
+地址：南京市北京西路15号 联系电话：025-63335653
+苏ICP备：10205850
+    </footer>
+</body>
+</html>
